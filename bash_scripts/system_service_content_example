@@ -1,0 +1,15 @@
+[Unit]
+Description=Service description
+
+Wants=network.target
+After=syslog.target network-online.target
+
+[Service]
+Type=simple
+ExecStart=/opt/anaconda3/bin/tensorboard --logdir=gs://[storage bucket location] --bind_all --port=[port number]
+Restart=on-failure
+RestartSec=10
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target

@@ -1,5 +1,7 @@
 # Ignore development credentials
-example_credential.json
+bash_scripts/example_credential.json
+bash_scripts/system_service_content_local
+utils/private.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

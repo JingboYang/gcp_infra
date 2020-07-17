@@ -1,7 +1,7 @@
 # Infrastructure for Machine Learning Projects on Google Cloud Platform
 
 Author: Jingbo Yang, Ruge Zhao, Meixian Zhu
-Additional credits to: [CheXpert](https://stanfordmlgroup.github.io/competitions/chexpert/) and participants of Stanford AI for Healtcare Bootcamp
+Additional credits to: [CheXpert](https://stanfordmlgroup.github.io/competitions/chexpert/) and participants of [Stanford AI for Healthcare Bootcamp](https://stanfordmlgroup.github.io/programs/aihc-bootcamp/).
 
 Concept for this repository orignated from CheXpert, then was adapted for [ElectreeScore](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2767367)(requires JAMA subscription). Migration toward GCP support was added after Stanford's 2019 Spring CS 341 [report](https://web.stanford.edu/class/cs341/project/Zhao-Zhu-Yang_report.pdf) offering then further strengthend during subsequent paper review process and for Stanford's 2019 Fall CS224W offering [report](https://web.stanford.edu/class/cs224w/project/26425124.pdf).
 
